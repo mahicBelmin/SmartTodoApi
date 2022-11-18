@@ -1,0 +1,15 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  labels:
+    app.kubernetes.io/part-of: tanzu-java-web-app
+    apps.tanzu.vmware.com/has-tests: "true"
+    apps.tanzu.vmware.com/workload-type: web
+  name: todo-webapi-app
+  namespace: tap-test-dev
+spec:
+  source:
+   git:
+     ref:
+       branch: main
+       url: https://github.com/mahicBelmin/SmartTodoApi
