@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: mahicBelmin/SmartTodoApi
 spec:
-  type: service
-  lifecycle: experimental
+  type: other
+  lifecycle: unknown
   owner: default-team
