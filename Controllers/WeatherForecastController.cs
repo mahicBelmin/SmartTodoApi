@@ -29,10 +29,6 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
-    [HttpGet("ReturnFullName")]
-    public string ReturnFullName()
-    {
-        return $"Belmin Mahic";
-    }
+   
 }
 
